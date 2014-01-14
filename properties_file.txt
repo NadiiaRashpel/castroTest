@@ -1,0 +1,6 @@
+﻿browser=firefox
+driver=firefox
+server=http://www.castro.com/
+excelFilePath=TestData.xls
+propertiesFolderPath=properties/
+OperaBinaryPath=C:\Program Files\Opera\17.0.1241.45\opera.exe

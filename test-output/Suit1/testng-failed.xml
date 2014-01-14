@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suit1]">
+  <listeners>
+    <listener class-name="com.epam.kulibaba.helpers.Reports.ScreenShotOnFailure"/>
+  </listeners>
+  <test name="pn_com(failed)">
+    <classes>
+      <class name="com.epam.kulibaba.test.TestSortByNameListProducts">
+        <methods>
+          <include name="setUpMethod"/>
+          <include name="testNameSort" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.kulibaba.test.TestSortByNameListProducts -->
+    </classes>
+  </test> <!-- pn_com(failed) -->
+</suite> <!-- Failed suite [Suit1] -->
